@@ -106,4 +106,7 @@
     <string name="audio">Audio</string>
     <string name="power">Battery Section</string>
     <string name="kprofile">KProfiles</string>
+
+    <!-- Refresh Rate tile -->
+    <string name="refresh_rate_tile_title">Refresh Rate</string>
 </resources>
