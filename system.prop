@@ -1,6 +1,11 @@
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
+# Blur
+ro.launcher.blur.appLaunch=0
+ro.sf.blurs_are_expensive=1 
+ro.surface_flinger.supports_background_blur=1
+
 # Charger
 ro.charger.enable_suspend=true
 
@@ -38,6 +43,13 @@ ril.subscription.types=RUIM
 ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
+
+# Spark Ify
+ro.spark.device.name=Redmi Note 10 Pro 
+ro.spark.group.url=https://t.me/dampt_cox
+ro.spark.status=Official 
+ro.spark.maintainer=Unsatifsed27
+ro.spark.maintainer.username=unsatifsed27
 
 # Recovery
 ro.recovery.ui.margin_height=48
