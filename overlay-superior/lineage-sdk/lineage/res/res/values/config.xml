@@ -22,6 +22,7 @@
         <item>com.android.camera</item>
         <item>org.lineageos.aperture</item>
         <item>org.lineageos.aperture.dev</item>
+	<item>vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram</item>
     </string-array>
 
     <!-- Pocket Lock -->
