@@ -50,4 +50,12 @@
         android:summary="%s"
         android:icon="@drawable/ic_scenes" />
 
+    <PreferenceScreen
+        android:key="dolby"
+        android:title="@string/dolby">
+
+        <intent android:targetPackage="com.dolby.daxappui"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.dolby.daxappui.MainActivity" />
+    </PreferenceScreen>
 </PreferenceScreen>
