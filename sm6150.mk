@@ -297,6 +297,9 @@ PRODUCT_ENFORCE_RRO_TARGETS += *
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr
 
+# QR Code patch
+PATCH := $(shell ($(LOCAL_PATH)/vendor_patch.sh))
+
 # QTI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor

@@ -1,0 +1,26 @@
+From c3027bb677d93817a45823346112d075540a5928 Mon Sep 17 00:00:00 2001
+From: Rizky Benggolo <travarilo@gmail.com>
+Date: Fri, 26 May 2023 04:45:35 +0700
+Subject: [PATCH] overlay: Unset config_defaultQrCodeComponent
+
+---
+ overlay/common/frameworks/base/core/res/res/values/config.xml | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/overlay/common/frameworks/base/core/res/res/values/config.xml b/overlay/common/frameworks/base/core/res/res/values/config.xml
+index 74ce6c32..9fd8364b 100644
+--- a/overlay/common/frameworks/base/core/res/res/values/config.xml
++++ b/overlay/common/frameworks/base/core/res/res/values/config.xml
+@@ -188,9 +188,6 @@
+     <!-- Whether or not to enable the lock screen entry point for the QR code scanner. -->
+     <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
+     
+-    <!-- Default component for QR code scanner -->
+-    <string name="config_defaultQrCodeComponent" translatable="false">org.lineageos.aperture/.QrScannerActivity</string>
+-
+     <!-- List of system apps that are allowed to be locked with app lock.
+         Use with extreme caution. -->
+     <string-array name="config_appLockAllowedSystemApps" translatable="false">
+-- 
+2.34.1
+
